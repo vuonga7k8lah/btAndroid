@@ -14,8 +14,10 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-
-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@drawable/ic_launcher_background" />
-    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
-</adaptive-icon>
+<automotiveApp>
+    <!--
+      ~ This lets Android Auto know that UAMP can act as a media app.
+      ~ See: https://developer.android.com/training/auto/audio/ for more info.
+      -->
+    <uses name="media" />
+</automotiveApp>
